@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 
-input_to_index(array, index, value)
+def input_to_index(array, index, value)
   array[index] = value
 end
  
