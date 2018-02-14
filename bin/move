@@ -11,6 +11,6 @@ input = gets.strip
 
 puts "You typed #{input}"
 
-index = input_to_index
+index = input_to_index()
 display_board(board)
 move(board, index, value="X")
