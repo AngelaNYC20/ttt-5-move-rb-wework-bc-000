@@ -13,5 +13,5 @@ puts "You typed #{input}"
 
 input_to_index(board , 0 , "X")
 
-display_board()
-move()
+display_board(board)
+move(board)
