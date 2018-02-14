@@ -12,7 +12,8 @@ def input_to_index(input)
   input.to_i-1 #.to_i turns the input into integer
 end
  
-def move(board, index, value="X")
+def move(board, index, value="X") 
   board[index] = value
 end
 
+# Value ="x" means when the user don't enter a value, it will just default to X
