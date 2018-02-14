@@ -11,7 +11,7 @@ input = gets.strip
 
 puts "You typed #{input}"
 
-input_to_index(board , 0 , "X")
+input_to_index(index)
 
 display_board(board)
 move(board, index, value="X")
